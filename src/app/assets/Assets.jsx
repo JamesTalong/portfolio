@@ -16,6 +16,7 @@ import img14 from "../assets/images/img14.png";
 import img15 from "../assets/images/img15.png";
 import img16 from "../assets/images/img16.png";
 import img17 from "../assets/images/img17.png";
+import img18 from "../assets/images/img18.png";
 
 export const assets = {
   logo,
@@ -36,4 +37,5 @@ export const assets = {
   img15,
   img16,
   img17,
+  img18,
 };

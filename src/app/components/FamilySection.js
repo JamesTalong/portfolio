@@ -77,8 +77,38 @@ export default function FamilySection() {
           </p>
         </div>
       </div>
+      {/* Divider */}
+      <div className="border-t border-gray-300" />
+      <div className="md:flex md:items-start gap-6">
+        {/* Image Left */}
+        <div className="relative w-full md:w-[50%] h-[300px] overflow-hidden rounded-lg shadow-md">
+          <Image
+            src={assets.img18}
+            alt="Father Lifeguard"
+            fill
+            className="object-cover object-center"
+          />
+        </div>
 
-      {/* Footer URL */}
+        {/* Text Right */}
+        <div className="md:w-[50%] space-y-4">
+          <h2 className="text-2xl font-semibold tracking-widest text-gray-900">
+            BROTHER: THE DIGITAL ARTISAN
+          </h2>
+          <p className="text-justify text-gray-700 text-base leading-relaxed">
+            My brother excels in the digital realm at{" "}
+            <strong>ResultsCX: Digital Customer Experience Solutions</strong>,
+            where he applies his sharp IT skills to craft seamless and
+            innovative digital experiences.
+          </p>
+          <p className="text-justify text-gray-700 text-base leading-relaxed">
+            Beyond his professional life, he&apos;s a passionate{" "}
+            <strong>guitar player</strong>, creating captivating melodies.
+            He&apos;s also a dedicated <strong>gamer</strong>, showcasing
+            strategic thinking in virtual worlds.
+          </p>
+        </div>
+      </div>
     </section>
   );
 }
