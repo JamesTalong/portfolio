@@ -192,7 +192,7 @@ export default function MyDreamsSection() {
     <div className="relative font-sans antialiased">
       {/* Background Image and Gradient Overlay */}
       <h2 className="text-4xl font-extrabold text-gray-800 border-l-8 border-blue-600 pl-4 tracking-tight font-bebas">
-        MY DREAMS
+        DREAMS
       </h2>
       {/* Content Section */}
       <section className="relative z-10 flex flex-col items-center justify-center min-h-screen p-6 md:p-12 text-center ">
